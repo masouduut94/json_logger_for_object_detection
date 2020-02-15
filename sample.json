@@ -1,0 +1,196 @@
+{
+  "video_details": {
+    "frame_width": 500,
+    "frame_height": 200,
+    "num_of_frames": 5,
+    "frame_rate": 20
+  },
+  "frames": [
+    {
+      "frame_id": 1,
+      "bboxes": [
+        {
+          "labels": [
+            {
+              "category": "a",
+              "confidence": 98
+            },
+            {
+              "category": "b",
+              "confidence": 93
+            },
+            {
+              "category": "c",
+              "confidence": 25
+            }
+          ],
+          "bbox_id": 0,
+          "top": 1,
+          "left": 5,
+          "width": 200,
+          "height": 100,
+          "top_k": 4
+        },
+        {
+          "labels": [
+            {
+              "category": "a",
+              "confidence": 98
+            },
+            {
+              "category": "b",
+              "confidence": 93
+            },
+            {
+              "category": "c",
+              "confidence": 25
+            }
+          ],
+          "bbox_id": 1,
+          "top": 5,
+          "left": 50,
+          "width": 250,
+          "height": 400,
+          "top_k": 4
+        },
+        {
+          "labels": [
+            {
+              "category": "a",
+              "confidence": 98
+            },
+            {
+              "category": "b",
+              "confidence": 93
+            },
+            {
+              "category": "c",
+              "confidence": 25
+            }
+          ],
+          "bbox_id": 2,
+          "top": 10,
+          "left": 21,
+          "width": 100,
+          "height": 210,
+          "top_k": 4
+        },
+        {
+          "labels": [
+            {
+              "category": "a",
+              "confidence": 98
+            },
+            {
+              "category": "b",
+              "confidence": 93
+            },
+            {
+              "category": "c",
+              "confidence": 25
+            }
+          ],
+          "bbox_id": 3,
+          "top": 20,
+          "left": 30,
+          "width": 10,
+          "height": 200,
+          "top_k": 4
+        }
+      ]
+    },
+    {
+      "frame_id": 2,
+      "bboxes": [
+        {
+          "labels": [
+            {
+              "category": "a",
+              "confidence": 98
+            },
+            {
+              "category": "b",
+              "confidence": 93
+            },
+            {
+              "category": "c",
+              "confidence": 25
+            }
+          ],
+          "bbox_id": 0,
+          "top": 1,
+          "left": 5,
+          "width": 200,
+          "height": 100,
+          "top_k": 4
+        },
+        {
+          "labels": [
+            {
+              "category": "a",
+              "confidence": 98
+            },
+            {
+              "category": "b",
+              "confidence": 93
+            },
+            {
+              "category": "c",
+              "confidence": 25
+            }
+          ],
+          "bbox_id": 1,
+          "top": 5,
+          "left": 50,
+          "width": 250,
+          "height": 400,
+          "top_k": 4
+        },
+        {
+          "labels": [
+            {
+              "category": "a",
+              "confidence": 98
+            },
+            {
+              "category": "b",
+              "confidence": 93
+            },
+            {
+              "category": "c",
+              "confidence": 25
+            }
+          ],
+          "bbox_id": 2,
+          "top": 10,
+          "left": 21,
+          "width": 100,
+          "height": 210,
+          "top_k": 4
+        },
+        {
+          "labels": [
+            {
+              "category": "a",
+              "confidence": 98
+            },
+            {
+              "category": "b",
+              "confidence": 93
+            },
+            {
+              "category": "c",
+              "confidence": 25
+            }
+          ],
+          "bbox_id": 3,
+          "top": 20,
+          "left": 30,
+          "width": 10,
+          "height": 200,
+          "top_k": 4
+        }
+      ]
+    }
+  ]
+}
