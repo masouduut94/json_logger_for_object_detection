@@ -40,12 +40,10 @@ class TestFrame(TestCase):
         self.json_parser.add_frame(frame_one_id)
         self.json_parser.add_bbox_to_frame(frame_one_id, bbox_id, *bbox_xywh)
         out = self.json_parser.output()
-        # retrieve the frame
-        inserted_frame = out['frames'][0]
         # retrieve the bbox in the frame
-        inserted_bbox = inserted_frame['bboxes'][0]
+        inserted_bbox = out['frames'][0]['bboxes'][0]
         # check the values inserted in bbox
-        self.assertEqual(inserted_bbox['bbox_id'], bbox_id)
+        self.assertEqual((inserted_bbox['bbox_id']), bbox_id)
         self.assertEqual(inserted_bbox['top'], bbox_xywh[0])
         self.assertEqual(inserted_bbox['left'], bbox_xywh[1])
         self.assertEqual(inserted_bbox['width'], bbox_xywh[2])

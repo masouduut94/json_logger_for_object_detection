@@ -6,7 +6,7 @@ from datetime import datetime
 
 
 class JsonMeta(object):
-    HOURS = 3
+    HOURS = 4
     MINUTES = 59
     SECONDS = 59
     PATH_TO_SAVE = 'jsons'
