@@ -2,6 +2,11 @@
 
 ![Real-time surveillance system](./img/a.jpg)
 
+This repository is made up to support codes for this medium post:
+
+:link: [An approach to Create a logging mechanism for real-time object detection using TDD](https://medium.com/@masoud.masoumi.moghadam/creating-a-custom-logging-mechanism-for-real-time-object-detection-using-tdd-4ca2cfcd0a2f?source=friends_link&sk=3130f9ec5b2f7f1b82df32ab7e1998ea)
+
+
 ### Features:
 
 - tools for adding bboxes and corresponding labels.
